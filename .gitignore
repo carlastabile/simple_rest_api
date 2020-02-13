@@ -67,5 +67,5 @@ yarn-debug.log*
 !/storage/.keep
 
 .idea/
-.generators/
+.generators
 .rakeTasks
