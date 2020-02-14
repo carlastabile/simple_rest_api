@@ -23,3 +23,5 @@ As simple as running `rspec`
 
 ## Start making requests!
 You can user [POSTMAN](https://www.postman.com/) or any tool you prefer (even cURL)
+
+I have created [this](https://www.getpostman.com/collections/eaf3da06338591efac3a) POSTMAN collection with all the requests
