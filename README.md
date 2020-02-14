@@ -1,24 +1,25 @@
-# README
+# Simple REST API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo contains the code from the talk: "Building a simple REST API in Ruby On Rails", presented on February 27th.
 
-Things you may want to cover:
+## Pre-requisites
 
-* Ruby version
+* [RVM](https://rvm.io/) (Ruby Version Manager)
+* Ruby v2.6.0
+* Ruby on Rails v6.0.0
+* MySQL 5.7.24
 
-* System dependencies
+## Set up
+* Install gems with `bundle install`
+* Set up database with 
+    * `rails db:setup`
+    * `raills db:migrate`
 
-* Configuration
+## Run server
+`rails server`
 
-* Database creation
+## Run Tests 
+As simple as running `rspec`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Start making requests!
+You can user [POSTMAN](https://www.postman.com/) or any tool you prefer (even cURL)
