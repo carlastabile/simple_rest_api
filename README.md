@@ -2,7 +2,7 @@
 
 This repo contains the code from the talk: "Building a simple REST API in Ruby On Rails", presented on February 27th.
 
-## Pre-requisites
+## Pre-requisites (without using Docker)
 
 * [RVM](https://rvm.io/) (Ruby Version Manager)
 * Ruby v2.6.0
@@ -20,6 +20,13 @@ This repo contains the code from the talk: "Building a simple REST API in Ruby O
 
 ## Run Tests 
 As simple as running `rspec`
+
+
+## Run with Docker Compose
+The app will be available in localhost:3001
+
+* `docker-compose build`
+* `docker-compose up -d`
 
 ## Start making requests!
 You can user [POSTMAN](https://www.postman.com/) or any tool you prefer (even cURL)
